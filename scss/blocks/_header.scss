@@ -1,0 +1,49 @@
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .site-header__logo{
+     margin-top: 44px;
+     margin-right: 0;
+     margin-bottom: 45px;
+     margin-left: 0;
+     vertical-align: middle;
+  }
+  
+  .nav{
+     display: flex;
+     
+  }
+  
+  .nav__list{
+     display: flex;
+     list-style: none;
+     margin: 0;
+     vertical-align: middle;
+  }
+  
+  .nav__item{
+     margin-left: 33px; 
+ 
+  }
+  
+  .nav__link{
+     text-decoration: none;
+     font-family: Barlow;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     color: #83888F;
+  }
+  
+  .nav__link:hover{
+     font-family: Barlow;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     color: #333D4B;
+  }
